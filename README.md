@@ -47,8 +47,7 @@ Then you would run `vagrant up && vagrant ssh`
 
 Inside the box, run the following:
 
-<ul>
-<li> `wget https://opscode-omnibus-packages.s3.amazonaws.com/el/6/x86_64/chef-12.0.3-1.x86_64.rpm` </li>
-<li> `sudo yum localinstall https://opscode-omnibus-packages.s3.amazonaws.com/el/6/x86_64/chef-12.0.3-1.x86_64.rpm` </li>
-</ul>
+
+* `wget https://opscode-omnibus-packages.s3.amazonaws.com/el/6/x86_64/chef-12.0.3-1.x86_64.rpm` <br/>
+*  `sudo yum localinstall https://opscode-omnibus-packages.s3.amazonaws.com/el/6/x86_64/chef-12.0.3-1.x86_64.rpm` 
 
