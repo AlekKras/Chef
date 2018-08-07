@@ -77,7 +77,7 @@ and
 
 2) Create the MOTD file
 
-Next, you'll write what's called a recipe to describe the desired state of the MOTD file. Then you'll run <a href="https://docs.chef.io/ctl_chef_client.html"<chef-client</a>, the program that applies your Chef code to place your system in the desired state. Typically, `chef-client` downloads and runs the latest Chef code from the Chef server, but in this module, you'll run `chef-client` in what's called local mode to apply Chef code that exists locally on your server.
+Next, you'll write what's called a recipe to describe the desired state of the MOTD file. Then you'll run <a href="https://docs.chef.io/ctl_chef_client.html">chef-client</a>, the program that applies your Chef code to place your system in the desired state. Typically, `chef-client` downloads and runs the latest Chef code from the Chef server, but in this module, you'll run `chef-client` in what's called local mode to apply Chef code that exists locally on your server.
 
 Let's create a file `hello.rb` and add these contents:
 

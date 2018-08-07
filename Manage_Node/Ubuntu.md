@@ -122,4 +122,4 @@ cookbook_path            ["#{current_dir}/../cookbooks"]
 
 ## Geneate your RSA private key
 
-To be added... use 
+To be added... use [this](https://learn.chef.io/modules/manage-a-node-chef-server/ubuntu/hosted/set-up-your-chef-server#/)
